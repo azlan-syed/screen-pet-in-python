@@ -81,7 +81,7 @@ def change_color():
     c.itemconfigure(ear_right, outline=c.body_color, fill=c.body_color)
     c.itemconfigure(foot_left, outline=c.body_color, fill=c.body_color)
     c.itemconfigure(foot_right, outline=c.body_color, fill=c.body_color)
-    root.after(10000, change_color)  # Schedule the color change again after 10 seconds
+    root.after(10000, change_color)  
 
 def cheeky(event):
     toggle_tongue()
